@@ -1,6 +1,10 @@
 # Tetris2048
-Tetris2048, klasik Tetris ve 2048 oyunlarının mantığını birleştiren, Java diliyle geliştirilmiş masaüstü bir oyundur. Oyuncu, yukarıdan düşen blokları stratejik olarak yerleştirip aynı sayılı blokları birleştirerek puan kazanır. Böylece Tetris’in hız ve refleks gerektiren yapısı, 2048’in akıl yürütme tabanlı ilerleyişiyle birleşir.
+Tetris2048 is a desktop game developed in Java, combining the core mechanics of both Tetris and 2048.
+The player strategically places falling blocks to merge identical numbers and earn points — blending Tetris’s fast-paced reflex gameplay with the logical progression of 2048.
 
-Oyun tamamen nesne yönelimli programlama (OOP) prensiplerine göre tasarlanmıştır. Kod yapısı Grid, Tile, Tetrominoes ve Tetris2048 sınıflarından oluşur. Görsel arayüz ve etkileşimler Java Swing/AWT kütüphaneleriyle gerçekleştirilmiştir.
+The game is fully designed following Object-Oriented Programming (OOP) principles.
+The code structure consists of classes such as Grid, Tile, Tetrominoes, and Tetris2048.
+The graphical interface and user interactions are implemented using Java Swing/AWT libraries.
 
-Projede, oyun döngüsü (game loop), çakışma algılama, birleşme algoritması ve skor yönetimi gibi temel mekanikler uygulanmıştır. Bu yapı, OOP mantığını öğrenmek isteyenler için sade ama etkili bir örnek sunar.
+Core features include a game loop, collision detection, merge algorithm, and score management system.
+This project serves as a clear and efficient example for anyone looking to understand OOP concepts through an engaging and interactive game.
